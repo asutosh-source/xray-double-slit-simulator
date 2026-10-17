@@ -1,0 +1,45 @@
+{
+  "Fourier score": {
+    "threshold": 0.15251518099086328,
+    "false_positives": 280,
+    "null_trials": 5000,
+    "false_positive_rate": 0.056,
+    "false_positive_ci95": [
+      0.0499612059948101,
+      0.06272051333240064
+    ],
+    "detections": 5000,
+    "alternative_trials": 5000,
+    "power": 1.0,
+    "power_ci95": [
+      0.9992322980549431,
+      1.0
+    ]
+  },
+  "Sinusoidal-fit score": {
+    "threshold": 0.06395510542612261,
+    "false_positives": 227,
+    "null_trials": 5000,
+    "false_positive_rate": 0.0454,
+    "false_positive_ci95": [
+      0.039970320043562504,
+      0.051527674564883455
+    ],
+    "detections": 5000,
+    "alternative_trials": 5000,
+    "power": 1.0,
+    "power_ci95": [
+      0.9992322980549431,
+      1.0
+    ]
+  },
+  "metadata": {
+    "target_alpha": 0.05,
+    "trials_per_stage_per_method": 5000,
+    "photon_count": 3000,
+    "visibility": 0.7,
+    "uniform_background_fraction": 0.1,
+    "seed": 20261017,
+    "interpretation": "Power and false-positive rates are Monte Carlo estimates under this simplified model, not experimental results."
+  }
+}
